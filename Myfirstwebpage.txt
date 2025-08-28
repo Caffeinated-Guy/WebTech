@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name = "viewpoint" content ="width=device-width, initial-scale=1.0">
+	<title>My First Web Page</title>
+	</head>
+	<body>
+
+	<!--Moving text-->
+	<h1 style="color: cyan;">heading<h1>
+	<h1><marquee>basic HTML Tag</marquee></h1>
+	<h2><marquee direction="right">basic HTML Tag</marquee></h2>
+	
+
+	<!--Different heading tags -->
+	<h1><mark>WEB TECHNOLOGY LAB -BSC504 <mark></h1>
+	<a href="https://www.w3schools.com/">Visit w3school</a>
+	<del><h1>WEB TECHNOLOGY LAB -BSC504 </h1></del>
+	<h2>WEB TECHNOLOGY LAB -BSC504 </h2>
+	<h3>WEB TECHNOLOGY LAB -BSC504 </h3>
+	<h4>WEB TECHNOLOGY LAB -BSC504 </h4>
+	<h5>WEB TECHNOLOGY LAB -BSC504 </h5>
+	<h6>WEB TECHNOLOGY LAB -BSC504 </h6>
+
+<!--Paragraph-->
+<p>the p tag define a paragraph. Browser automatically add a single blank line before and after each p element </p>
+<!-->Horizontal line-->
+<hr>
+<!--Line Break-->
+<p>The br tag inserts a single line break. The<br> tag is useful for writing addresses or poems.
+the <br> tag is an empty tag which means there is no end tag </p>
+
+<!--Block Quote-->
+<blockquote>The blockquote tag specifies a section that is quote from another source.Browsers usually indent blockquote elements </blockquote>
+
+<!--Preformatted text-->
+<pre>This is preformatted text. it preserves space and line breaks</pre>
+
+<!-->Different Logic Style Tags-->
+<p>this is <b> bold </b> text.</p>
+<p>this is <i> italic </i> text.</p>
+<p>this is <u> underline</u> text.</p>
+<p>this is <sub> subscript</sub> text.</p>
+<p>this is <sup> superscript</sup> text.</p>
+<p>this is <em> emphasized</em> text.</p>
+<p>this is <strong> strong</strong> text.</p>
+<img src="https://res.cloudinary.com/dmwcbhehi/image/upload/c_fill,ar_1:1,w_3840,g_auto:subject/f_auto/q_auto/v1/911-gt3-cup-gallery-5_sm3nrc?_a=BAVAZGIB0"width=500>
+<img src="https://tse1.mm.bing.net/th/id/OIP.jwxTTr7sX3YC9kOwp1D_ygHaQd?cb=thfvnext&rs=1&pid=ImgDetMain&o=7&rm=3"width=250>
+<body style="background-color: lightblue;">
+</body>
+</html>
+
+	
