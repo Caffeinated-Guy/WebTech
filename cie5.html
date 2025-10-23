@@ -31,8 +31,8 @@ color: #555;
 th { 
 text-align: left; 
 padding: 15px; 
-background-color: #4CAF50; 
-color: white; 
+background-color: #00FFFF; 
+color: red; 
 font-size: 20px; 
 } 
 input[type="text"], input[type="email"], input[type="password"], select, textarea { 
@@ -74,12 +74,17 @@ width: auto;
 </tr> 
 <tr> 
 <td>First Name:</td> 
-<td><input type="text" name="firstname" placeholder="Enter your first name"></td> 
+<td><input type="text" name="Name" placeholder="Enter your name"></td> 
          </tr> 
          <tr> 
-            <td>Last Name:</td> 
-            <td><input type="text" name="lastname" placeholder="Enter your last name"></td> 
+            <td>USN:</td> 
+            <td><input type="text" name="USN" placeholder="Enter your USN"></td> 
          </tr> 
+	<tr> 
+            <td>Phone Number:</td> 
+            <td><input type="tel" name="Phone Number" placeholder="Enter your Phone Number"></td> 
+         </tr> 
+
          <tr> 
             <td>Email:</td> 
             <td><input type="email" name="email" placeholder="Enter your email"></td> 
@@ -107,11 +112,11 @@ width: auto;
              </td> 
          </tr> 
          <tr> 
-            <td>Hobbies:</td> 
+            <td>Event:</td> 
             <td> 
-              <input type="checkbox" name="hobbies" value="reading" class="checkbox">  Reading 
-               <input type="checkbox" name="hobbies" value="travelling" class="checkbox"> Travelling 
-                <input type="checkbox" name="hobbies" value="sports" class="checkbox">  Sports 
+              <input type="checkbox" name="Event" value="CS" class="checkbox">  CS 
+               <input type="checkbox" name="Event" value="travelling" class="checkbox"> Travelling 
+                <input type="checkbox" name="Event" value="sports" class="checkbox">  Sports 
             </td> 
          </tr> 
          <tr> 
