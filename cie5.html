@@ -1,0 +1,145 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>College Event Registration Form</title> 
+<style> 
+body { 
+font-family: Arial, sans-serif; 
+background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+margin: 20px; 
+min-height: 100vh;
+} 
+h1 { 
+text-align: center; 
+color: #fff; 
+font-size: 28px; 
+margin-bottom: 30px; 
+text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+} 
+table { 
+width: 70%; 
+margin: 0 auto; 
+background-color: #fff; 
+border-collapse: collapse; 
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); 
+border-radius: 10px;
+overflow: hidden;
+} 
+td { 
+padding: 12px 15px; 
+font-size: 16px; 
+color: #555; 
+} 
+th { 
+text-align: left; 
+padding: 15px; 
+background-color: #4a90e2; 
+color: white; 
+font-size: 18px; 
+font-weight: bold;
+} 
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="number"], select { 
+width: 100%; 
+padding: 8px; 
+font-size: 14px; 
+border: 1px solid #ddd; 
+border-radius: 4px; 
+box-sizing: border-box;
+} 
+input[type="submit"], input[type="reset"] { 
+background-color: #4CAF50; 
+color: white; 
+padding: 12px 25px; 
+border: none; 
+border-radius: 4px; 
+cursor: pointer; 
+font-size: 16px; 
+margin: 5px;
+} 
+input[type="submit"]:hover, input[type="reset"]:hover { 
+background-color: #45a049; 
+transform: translateY(-1px);
+} 
+.radio, .checkbox { 
+width: auto; 
+margin-right: 10px;
+} 
+.form-section {
+margin-bottom: 20px;
+}
+</style> 
+</head> 
+<body> 
+<h1>College Event Registration Form</h1>
+<form action="#" method="post">
+<table> 
+<tr> 
+<th colspan="2">Student Information</th> 
+</tr> 
+<tr> 
+<td><strong>Full Name:</strong></td> 
+<td><input type="text" name="fullname" placeholder="Enter your full name" required></td> 
+</tr> 
+<tr> 
+<td><strong>Age:</strong></td> 
+<td><input type="number" name="age" placeholder="Enter your age" min="16" max="30" required></td> 
+</tr> 
+<tr> 
+<td><strong>USN:</strong></td> 
+<td><input type="text" name="usn" placeholder="Enter your USN (e.g., 1MV20CS001)" required></td> 
+</tr> 
+<tr> 
+<td><strong>Phone Number:</strong></td> 
+<td><input type="tel" name="phone" placeholder="Enter your phone number" required></td> 
+</tr> 
+<tr> 
+<td><strong>Email:</strong></td> 
+<td><input type="email" name="email" placeholder="Enter your email address" required></td> 
+</tr> 
+<tr> 
+<td><strong>Password:</strong></td> 
+<td><input type="password" name="password" placeholder="Create a password" required></td> 
+</tr> 
+<tr> 
+<td><strong>Gender:</strong></td> 
+<td> 
+<input type="radio" name="gender" value="male" class="radio" required> Male 
+<input type="radio" name="gender" value="female" class="radio"> Female 
+<input type="radio" name="gender" value="other" class="radio"> Other 
+</td> 
+</tr> 
+<tr> 
+<td><strong>College:</strong></td> 
+<td> 
+<select name="college" required> 
+<option value="">Select your college</option> 
+<option value="smvitm">SMVITM</option> 
+<option value="rvce">RVCE</option> 
+<option value="pes">PES University</option> 
+<option value="bms">BMS College</option> 
+<option value="other">Other</option> 
+</select> 
+</td> 
+</tr> 
+<tr> 
+<td><strong>Event to Join:</strong></td> 
+<td> 
+<input type="checkbox" name="events" value="coding" class="checkbox"> Coding Competition 
+<input type="checkbox" name="events" value="debate" class="checkbox"> Debate 
+<input type="checkbox" name="events" value="sports" class="checkbox"> Sports 
+<input type="checkbox" name="events" value="cultural" class="checkbox"> Cultural Events 
+<input type="checkbox" name="events" value="workshop" class="checkbox"> Technical Workshop 
+</td> 
+</tr> 
+<tr> 
+<td colspan="2" style="text-align: center; padding: 20px;"> 
+<input type="submit" value="Register for Event"> 
+<input type="reset" value="Clear Form"> 
+</td> 
+</tr> 
+</table> 
+</form> 
+</body> 
+</html>
