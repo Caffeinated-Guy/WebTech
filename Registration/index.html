@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Student Registration Form</h2>
+
+        <form action="submit.php" method="POST" onsubmit="return validateForm()">
+            <label>Full Name:</label>
+            <input type="text" name="fullname" required>
+
+            <label>Email Address:</label>
+            <input type="email" name="email" required>
+
+            <label>Contact Number:</label>
+            <input type="text" name="phone" required>
+
+            <label>Gender:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="gender" value="Male" required> Male</label>
+                <label><input type="radio" name="gender" value="Female"> Female</label>
+            </div>
+
+            <label>Date of Birth:</label>
+            <input type="date" name="dob" required>
+
+            <label>Residential Address:</label>
+            <textarea name="address" rows="3" required></textarea>
+
+            <label>Select Course:</label>
+            <select name="course" required>
+                <option value="">Choose</option>
+                <option>BCA</option>
+                <option>B.Tech</option>
+                <option>MCA</option>
+                <option>M.Tech</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
